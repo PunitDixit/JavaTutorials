@@ -15,6 +15,7 @@ public class OccurenceHashMap {
 		String [] strSplit = str.split(" ");
 
 		HashMap<String, Integer> hmap = new HashMap<>();
+		
 
 		for (String s : strSplit) {
 
