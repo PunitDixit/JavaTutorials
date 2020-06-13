@@ -22,6 +22,8 @@ public class DisplayUniqueHashSet {
 		
 		for(Integer temp: set)
 		{
+			
+		
 			System.out.println(temp); //yahan par main 'a' daal de raha tha 
 			                           //isliye us time output nahi aya tha
 		}

@@ -1,4 +1,4 @@
-package demo;
+package stringProblems;
 
 public class StringSplit {
 

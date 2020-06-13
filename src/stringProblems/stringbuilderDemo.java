@@ -1,4 +1,4 @@
-package demo;
+package stringProblems;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -16,14 +16,14 @@ public class AddElementArray {
 		int num = reader.nextInt();
 		System.out.println(num);
 		
-		
+		System.out.println("Enter the index: ");
+		int index = reader.nextInt();
 		
 		int arr [] = {0,1,3,4,5};
 		
 		int len = arr.length;
 		
-		System.out.println("Enter the index: ");
-		int index = reader.nextInt();
+		
 		if (index>len-1)
 		{
 			System.out.println("Enter a valid index under: "+(len-1));
@@ -69,9 +69,12 @@ public class AddElementArray {
 		list1.add(2, 2);
 		
 		System.out.println(list1);
-		
+
+		Object[] arrNew1 = list1.toArray();
+		    
+	    
 	
-	
+
 	
 		
 	}
