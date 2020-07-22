@@ -4,7 +4,10 @@ public class ReplaceDemo {
 	public static void main(String[] args) {
 		
 		
-		String str = "Hello my name is Hello";
+		String str = "Hello2 my name is Hello";
+		
+		System.out.println(str.replaceAll("[a-zA-Z]", "%"));
+		
 		
 		String arr[] = str.split(" ");
 		

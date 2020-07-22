@@ -30,10 +30,10 @@ public class SelectionSort {
 				
 			}
 		
-			
+			if(min!=i) {
 			temp=arr[min];
 			arr[min]=arr[i];
-			arr[i]=temp;
+			arr[i]=temp;}
 		}
 		
 		for(int a:arr)

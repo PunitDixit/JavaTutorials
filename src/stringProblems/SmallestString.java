@@ -1,5 +1,4 @@
 package stringProblems;
-
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -39,8 +38,8 @@ public class SmallestString {
 		
 		System.out.println("*****************f");
 		smallStr = arr[0];
-		String smallList="";
-		for (int i=0; i<arr.length;i++) {
+		
+		for (int i=1; i<arr.length;i++) {
 			
 			if(smallStr.length()>arr[i].length())
 			{

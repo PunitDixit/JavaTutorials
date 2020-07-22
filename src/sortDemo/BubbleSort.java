@@ -21,7 +21,7 @@ public class BubbleSort {
 			for (int j=0;j<arr.length-1-i;j++)             // length-1-i inner loop, No need to sort already sorted element in previous cycle thats why minus i
 			{
 				
-				if (arr[j]<arr[j+1]) // CHANGE THE OPERAND FOR INCREASING OR DECREASING ORDER
+				if (arr[j]>arr[j+1]) // CHANGE THE OPERAND FOR INCREASING OR DECREASING ORDER
 				{
 					temp=arr[j+1];
 					arr[j+1]=arr[j];

@@ -36,7 +36,7 @@ public class SecIndex {
 		
 		//Using for loop
 		
-		for(int i=0;i<2;i++)
+		for(int i=0;i<2;i++)// this loop condition no decides which index to be obtained
 		{
 			index = str.indexOf('a', index+1); //IMPORTANT ELSE ALWAYS SAME INDEX WILL BE THROWN
 		}
