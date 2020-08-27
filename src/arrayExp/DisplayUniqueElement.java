@@ -1,12 +1,12 @@
-package test;
+package arrayExp;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Display_Unique {
+public class DisplayUniqueElement {
 
 	public static void main(String[] args) {
-
+		
 		int [] arr = {1,2,3,3,2};
 
 
@@ -21,6 +21,8 @@ public class Display_Unique {
 			System.out.println(ele);
 		}
 
+		
+		
 	}
 
 }

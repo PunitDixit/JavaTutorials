@@ -21,6 +21,7 @@ public class AddElementArray {
 		
 		int arr [] = {0,1,3,4,5};
 		
+		
 		int len = arr.length;
 		
 		

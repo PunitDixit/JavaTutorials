@@ -2,6 +2,7 @@ package demo;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class DisplayUniqueHashSet {
 
@@ -27,6 +28,16 @@ public class DisplayUniqueHashSet {
 			System.out.println(temp); //yahan par main 'a' daal de raha tha 
 			                           //isliye us time output nahi aya tha
 		}
+		
+		
+		// For Sorting HashSet using TreeSet
+		
+		TreeSet<Integer> ts = new TreeSet<Integer>(set);
+		
+		for(int n: ts.descendingSet()) {
+			System.out.println(n);
+		}
+		
 		
 		
 	}

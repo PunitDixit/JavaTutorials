@@ -1,10 +1,8 @@
-package test;
+package stringProblems;
 
-public class Demo {
+public class StringGivenWordOccurence {
 
 	public static void main(String[] args) {
-
-
 		String str [] = {"are","hello","welcome", "are"};
 
 
@@ -22,7 +20,6 @@ public class Demo {
 		}
 
 		System.out.println(srch+ " occured for no of times:" +count );
-
 
 
 	}

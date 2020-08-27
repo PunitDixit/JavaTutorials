@@ -5,13 +5,13 @@ public class Demo2 extends Demo{
 	public static void main(String[] args) {
 
 
-		String str = "Selenium";
+		String str = "mmn";
 
 		char [] ch  = str.toCharArray();
 
 		int flag;
 
-		l1: for (int i=0;i<ch.length;i++) {
+		 for (int i=0;i<ch.length;i++) {
 
 			
 			flag=0;
